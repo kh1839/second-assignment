@@ -1,7 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
-*{
+
+* {
     padding: 0px;
     margin: 0px;
+    font-family: Work Sans;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 240px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    padding: 44px 0px;
+    gap: 20px;
+}
+
+.nav-logo h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.font {
+    color: #FF42A5;
+}
+
+.anchor {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-anc {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.youtube {
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    padding: 16px 24px;
 }
 
 
@@ -24,14 +74,10 @@
 
 
 
-@media screen and (max-width: 768px) {
-
-}
+@media screen and (max-width: 768px) {}
 
 
 
 
 
-@media screen and (max-width: 425px) {
-    
-}
+@media screen and (max-width: 425px) {}
