@@ -1,55 +1,133 @@
 @media screen and (max-width: 768px) {
-    .navbar{
-        flex-direction: column;
-        align-items: center;
-        margin: 0px;
-        padding: 0px;
-    }
-    .first-sec{
-        flex-direction: column-reverse;
-        margin: 0;
-        padding: 0;
-        align-items: center;
-      }
-      .img-container{
-        margin: 0;
-        padding: 50px 0px;
-      }
-      .sec-text{
-        padding-left: 0px;
-      }
-      .game-img{
-        flex-wrap: wrap;
-      }
-    }
-    
-    
-    
-    
-    
-    @media screen and (max-width: 425px) {
-      .navbar, .anchor, .nav-list, .first-sec{
-        flex-direction: column;
-        margin: 0px;
-        align-items: center;
-        padding: 0px;
-      }  
-      .sec-text{
-        padding-left: 0px;
-      }
-      .img18{
-        width: 99%;
-      }
-      .img-container{
-        padding: 70px 0;
-    
-      }
-      .first-sec{
-        flex-direction: column-reverse;
-      }
-      .game-img {
-        flex-direction: column;
-        align-items: center;
-      }
-      
-    }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .first-sec {
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .img-container {
+    margin: 0;
+    padding: 50px 0px;
+  }
+
+  .sec-text {
+    padding-left: 0px;
+  }
+
+  .game-img {
+    flex-wrap: wrap;
+  }
+  .sec2{
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+  }
+  .sec2text {
+    padding: 0;
+    margin: 0;
+    padding-top: 150px;
+    text-align: center;
+  }
+  .button-section{
+    padding: 70px 20px;
+    gap: 20px;
+  }
+  .img6{
+    width: 250px;
+}
+.img55{
+    width: 500px;
+}
+.img66{
+  top: 300px;
+  right: 350px;
+}
+.btn9{
+  padding: 8px 10px 8px 5px;
+  color: #0B0223;
+    font-size: 15px;
+    font-weight: 600;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 425px) {
+
+  .navbar,
+  .anchor,
+  .nav-list,
+  .first-sec {
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .sec-text {
+    padding-left: 0px;
+  }
+
+  .img18 {
+    width: 99%;
+  }
+
+  .img-container {
+    padding: 70px 0;
+
+  }
+
+  .first-sec {
+    flex-direction: column-reverse;
+  }
+
+  .game-img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec2 {
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+  }
+
+  .sec2text {
+    padding: 0;
+    margin: 0;
+    padding-top: 150px;
+    text-align: center;
+  }
+  .img6{
+    width: 150px;
+}
+.img55{
+    width: 300px;
+}
+.img66{
+  top: 200px;
+  right: 200px;
+}
+.button-section{
+  padding: 70px 20px;
+  gap: 20px;
+}
+.btn9{
+  padding: 8px 10px 8px 5px;
+  color: #0B0223;
+    font-size: 15px;
+    font-weight: 600;
+}
+}
