@@ -57,6 +57,13 @@
     font-size: 15px;
     font-weight: 600;
 }
+.fot-p{
+  flex-wrap: wrap;
+}
+.foot-l{
+  flex-wrap: wrap;
+  padding: 30px 90px 80px;
+  }
 }
 
 
@@ -129,5 +136,17 @@
   color: #0B0223;
     font-size: 15px;
     font-weight: 600;
+}
+.fot-p{
+  flex-wrap: wrap;
+}
+.logo6{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 100px;
+  gap: 90px;
+}
+.foot-l{
+flex-wrap: wrap;
 }
 }
