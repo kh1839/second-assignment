@@ -129,6 +129,34 @@
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
+    position: relative;
+
+}
+
+.teans-play {
+    position: absolute;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid red;
+    height: 88.5%;
+    top: 0;
+    background-color: rgba(128, 128, 128, 0.5);
+    gap: 30px;
+    border: 5px solid #FF42A5;
+    border-radius: 16px;
+    opacity: 0;
+}
+.game:hover .teans-play{
+opacity: 1;
+}
+
+.shadow {
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .second {
@@ -222,52 +250,60 @@
     border: 2px solid #FF42A5;
     color: #FF42A5;
 }
-.footl{
+
+.footl {
     padding-top: 120px;
     display: flex;
     justify-content: center;
 }
-footer{
+
+footer {
     background-color: #0B0223;
 }
 
-.foot-list{
+.foot-list {
     list-style: none;
     color: white;
     font-size: 18px;
-font-weight: 600;
+    font-weight: 600;
 }
-.foot-l{
+
+.foot-l {
     display: flex;
     justify-content: center;
     gap: 60px;
     padding-bottom: 60px;
 }
-.amer{
+
+.amer {
     color: white;
 }
 
-.logo6{
+.logo6 {
     display: flex;
     justify-content: center;
     gap: 60px;
     padding-bottom: 60px;
 }
-.fot-text{
+
+.fot-text {
     color: #FFF;
 }
-.fot-p{
+
+.fot-p {
     display: flex;
     justify-content: center;
     gap: 60px;
     padding-bottom: 60px;
 }
-.small{
+
+.small {
     display: flex;
     justify-content: center;
     color: white;
     padding-bottom: 120px;
 }
-.color-text{
-   color: #F948B2;
+
+.color-text {
+    color: #F948B2;
 }
